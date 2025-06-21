@@ -1,0 +1,92 @@
+# 💼 CareerCompass – Tech vs Non-Tech Career Predictor
+
+CareerCompass is a smart machine learning–powered web app built using Streamlit that helps individuals identify whether they are best suited for a **Tech** or **Non-Tech** career path based on 18 key career-related attributes.
+
+🚀 **Live Demo**: *(Add your Streamlit Cloud link here once deployed)*
+
+---
+
+## 📌 Features
+
+- 🔍 Predicts career domain: **Tech** or **Non-Tech**
+- 🧠 Uses a trained Random Forest model with 18 meaningful features
+- 💬 Interactive web interface powered by **Streamlit**
+- 💾 Handles label encoding safely with pre-trained encoders
+- 🌐 Easy to deploy and extend
+
+---
+
+## 🧪 Model Inputs
+
+The model uses the following input features:
+
+- `Age`
+- `Gender`
+- `High_School_GPA`
+- `SAT_Score`
+- `University_Ranking`
+- `University_GPA`
+- `Internships_Completed`
+- `Projects_Completed`
+- `Certifications`
+- `Soft_Skills_Score`
+- `Networking_Score`
+- `Job_Offers`
+- `Starting_Salary`
+- `Career_Satisfaction`
+- `Years_to_Promotion`
+- `Current_Job_Level`
+- `Work_Life_Balance`
+- `Entrepreneurship`
+
+---
+
+## 📂 Folder Structure
+
+```
+CareerCompass/
+├── app.py                # Streamlit frontend
+├── career_model.pkl      # Trained classification model
+├── label_encoders.pkl    # Label encoders for categorical features
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 🔧 Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### ▶️ Run the App Locally
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## ☁️ Deployment on Streamlit Cloud
+
+1. Push this repo to GitHub
+2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
+3. Connect your GitHub and deploy your repo
+4. App will go live in minutes!
+
+---
+
+## 👨‍💻 Author
+
+- **Devendra Savalkar**  
+  📧 [LinkedIn](https://www.linkedin.com/in/devendra-savalkar) | 🌐 *Add other links if you'd like*
+
+---
+
+## 📃 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
