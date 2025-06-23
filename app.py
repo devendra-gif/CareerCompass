@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load model and label encoders
-model = pickle.load(open("career_model.pkl", "rb"))
+model = pickle.load(open("career_mode.pkl", "rb"))
 label_encoders = pickle.load(open("label_encoders.pkl", "rb"))
 
 # List of features expected by the model
